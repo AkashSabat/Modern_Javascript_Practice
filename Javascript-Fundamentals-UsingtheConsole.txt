@@ -1,0 +1,33 @@
+
+Javascript Fundamentals
+ 
+ Putting the script in (.html file ) is not recommended.
+ Putting the js in app.js is recommended.
+ 
+ 2 - Using the console
+ 
+ 1) A console gives a way to test things, to debug, just a way to get output of our code.
+ 2) We can write code for testing purpose in console.
+ 3) (//) for single line comments
+ 4) /* */ for multiline comments
+ console.log() - to print something.
+ 
+  Some examples
+  
+console.log("Hello World!!");
+console.log(123);
+console.log(true);
+var greetings = 'Hello';
+console.log(greetings);
+console.log([1,2,3]);
+console.log({a:1,b:2});
+console.table({a:1,b:2});
+console.error('This is some error');
+console.clear();
+console.warn('This is a warning');
+
+console.time('Hello');
+console.log("Hello World!!");
+console.log("Hello World!!");
+console.log("Hello World!!");
+console.timeEnd('Hello')
