@@ -1,0 +1,38 @@
+
+Variables  in JS
+
+	3 possible keywords to define in javascript variables.(Introduced in ES6)
+	1) var -  We can resassign value if we use var keywords
+	Example
+	var name = "Akash";
+	console.log(name); //Akash
+	name = "Ashish";
+	console.log(name); //Ashish
+	
+	
+	2) let - let works similarly as var but it has advantage of block level scope.
+	Example
+	let name = "Akash";
+	console.log(name); //Akash
+	name = "Ashish";
+	console.log(name); //Ashish
+	
+	
+	3) const - const is used for constant. We cannot reassign value.
+	Example
+	const name = "Akash";
+	console.log(name); // Akash
+	name = "Ashish";
+	console.log(name); // Uncaught TypeError: Assignment to constant variable.
+	
+	let and const have advantage of block level scope.
+	Note :- String can be single quotes or double quotes.
+	Variables must include letters, numbers, underscore and dollar sign.
+	
+	Note - 
+	We can change the value of object but cannot the object completely
+	Eg :-
+	
+	console.log(person); //{name: 'Akash', age: 30}
+	person.name = "Sam";
+	console.log(person); //{name: 'Sam', age: 30}
